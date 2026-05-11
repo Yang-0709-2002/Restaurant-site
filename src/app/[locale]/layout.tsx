@@ -25,7 +25,7 @@ const outfit = Outfit({
   display: "swap",
 });
 
-/** Next.js 14 `next/font` 仅支持 latin / latin-ext 等子集，无 `chinese-simplified`；中文会由字体回退到系统黑体显示。 */
+/** `next/font` 仅配置 latin / latin-ext；中文由 Noto 与系统字体回退显示。 */
 const notoSansSC = Noto_Sans_SC({
   subsets: ["latin", "latin-ext"],
   weight: ["400", "500", "600", "700"],
@@ -46,10 +46,10 @@ export const viewport: Viewport = {
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const base = getSiteUrl();
-  const { locale } = params;
+  const { locale } = await params;
   if (!isAppLocale(locale)) {
     return { metadataBase: base };
   }
@@ -72,11 +72,11 @@ export async function generateMetadata({
 
 type Props = {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const { locale } = params;
+  const { locale } = await params;
   if (!isAppLocale(locale)) {
     notFound();
   }

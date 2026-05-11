@@ -10,10 +10,11 @@ import { HomeIntro } from "@/components/home/HomeIntro";
 import { HomeMetaStrip } from "@/components/home/HomeMetaStrip";
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
+  const { locale } = await params;
   if (!isAppLocale(locale)) {
     return {};
   }

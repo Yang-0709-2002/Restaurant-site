@@ -7,10 +7,11 @@ import { GoogleMapEmbed } from "@/components/contact/GoogleMapEmbed";
 import { getRestaurant } from "@/lib/content";
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
+  const { locale } = await params;
   if (!isAppLocale(locale)) {
     return {};
   }
