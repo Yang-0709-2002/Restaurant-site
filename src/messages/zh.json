@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "titleDefault": "曼谷泰中餐厅",
+    "description": "尼赖吉哈佐 Nyír Pláza 内的泰式与中式风味：镬气小炒、河粉与咖喱，适合家庭与聚餐。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "menu": "菜单",
+    "gallery": "图库",
+    "contact": "联系我们"
+  },
+  "brand": {
+    "nameLine": "曼谷泰中",
+    "cuisinesLine": "泰式 · 中餐"
+  },
+  "common": {
+    "viewMenu": "查看菜单",
+    "contactUs": "联系我们",
+    "getDirections": "地图导航",
+    "openNow": "营业中",
+    "closed": "已打烊",
+    "hoursToday": "今日",
+    "cuisine": "菜系",
+    "cuisineThai": "泰餐",
+    "cuisineChinese": "中餐",
+    "avgPrice": "人均参考",
+    "featured": "主厨推荐",
+    "learnMore": "了解更多",
+    "call": "拨打电话",
+    "filterAll": "全部",
+    "filterDishes": "菜品",
+    "filterVenue": "环境",
+    "skipToMain": "跳到主要内容",
+    "navigationMenu": "打开导航菜单",
+    "loading": "加载中…"
+  },
+  "home": {
+    "heroKicker": "Nyír Pláza · 尼赖吉哈佐",
+    "introTitle": "浓郁风味，同桌分享",
+    "hoursTitle": "营业时间",
+    "hoursWeekdays": "周一至周六",
+    "hoursSun": "周日",
+    "ctaSub": "欢迎到店用餐；多人聚餐建议提前电话确认。"
+  },
+  "about": {
+    "title": "关于我们",
+    "introTitle": "品牌故事",
+    "introBody": "曼谷泰中餐厅将两种备受喜爱的亚洲厨房聚在一起：泰国菜馥郁的咖喱与沙拉，以及中餐镬气十足的家常小炒。我们现点现做，在每一盘中平衡辣、甜与鲜香。",
+    "fusionTitle": "泰味遇见中餐",
+    "fusionBody": "您既能吃到泰式经典如泰式炒河粉、绿咖喱，也能品尝中式名菜如宫保鸡丁、馄饨汤——每道菜都力求味型清晰、份量实在。",
+    "serviceTitle": "服务理念",
+    "serviceBody": "快速、亲切、稳定出品。我们每日选用新鲜食材，菜单对家庭、学生与商场顾客同样友好。",
+    "spaceTitle": "用餐环境",
+    "spaceBody": "暖色灯光、深色木饰面与红金点缀，营造安静现代的空间——适合工作午餐，也适合购物后的轻松晚餐。"
+  },
+  "menu": {
+    "title": "菜单",
+    "subtitle": "点击分类浏览；手机端可在分类内横向滑动查看菜品。",
+    "priceNote": "价格含适用税费。菜品与图片仅供参考，以店内为准。",
+    "searchLabel": "搜索菜单",
+    "searchPlaceholder": "按菜名搜索…",
+    "searchEmpty": "没有匹配的菜品。",
+    "clearSearch": "清除"
+  },
+  "gallery": {
+    "title": "图库",
+    "subtitle": "菜品与餐厅一角。",
+    "zoomBadge": "放大",
+    "prevImage": "上一张",
+    "nextImage": "下一张",
+    "closeGallery": "关闭预览",
+    "imageCounter": "{current} / {total}"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "欢迎莅临 Nyír Pláza 内的本店。",
+    "address": "地址",
+    "phone": "电话",
+    "hours": "营业时间",
+    "mapTitle": "地图",
+    "weekdaysLabel": "周一至周六",
+    "sundayLabel": "周日",
+    "mobileHint": "手机上点击号码即可拨打。"
+  },
+  "footer": {
+    "rights": "版权所有。"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "body": "您访问的页面不存在或已迁移。"
+  },
+  "error": {
+    "kicker": "错误",
+    "title": "出了点问题",
+    "body": "请重试。若仍然失败，可刷新页面或稍后再来。",
+    "retry": "重试"
+  }
+}

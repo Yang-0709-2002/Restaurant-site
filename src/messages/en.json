@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "titleDefault": "Bangkok Thai Chinese Restaurant",
+    "description": "Thai and Chinese cuisine at Nyír Pláza, Nyíregyháza. Wok-fired noodles, curries, and family-style plates."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "brand": {
+    "nameLine": "Bangkok",
+    "cuisinesLine": "Thai · Chinese"
+  },
+  "common": {
+    "viewMenu": "View menu",
+    "contactUs": "Contact us",
+    "getDirections": "Directions",
+    "openNow": "Open now",
+    "closed": "Closed",
+    "hoursToday": "Today",
+    "cuisine": "Cuisine",
+    "cuisineThai": "Thai",
+    "cuisineChinese": "Chinese",
+    "avgPrice": "Average per person",
+    "featured": "Chef picks",
+    "learnMore": "Learn more",
+    "call": "Call",
+    "filterAll": "All",
+    "filterDishes": "Dishes",
+    "filterVenue": "Venue",
+    "skipToMain": "Skip to main content",
+    "navigationMenu": "Open navigation menu",
+    "loading": "Loading…"
+  },
+  "home": {
+    "heroKicker": "Nyír Pláza · Nyíregyháza",
+    "introTitle": "Bold flavors, shared tables",
+    "hoursTitle": "Opening hours",
+    "hoursWeekdays": "Mon–Sat",
+    "hoursSun": "Sun",
+    "ctaSub": "Walk-ins welcome. For groups, call ahead."
+  },
+  "about": {
+    "title": "About us",
+    "introTitle": "Our story",
+    "introBody": "Bangkok Thai Chinese Restaurant brings together two beloved Asian kitchens: the aromatic curries and salads of Thailand, and the wok-hei and comfort dishes of China. We cook to order, balancing spice, sweetness, and savoriness in every plate.",
+    "fusionTitle": "Thai meets Chinese",
+    "fusionBody": "You will find Thai staples like Pad Thai and green curry alongside Chinese classics such as Kung Pao chicken and wonton soup—each plate tuned for clarity of flavor and generous portions.",
+    "serviceTitle": "How we serve",
+    "serviceBody": "Fast, friendly service with a focus on consistency. We source fresh produce daily and keep our menu approachable for families, students, and mall visitors alike.",
+    "spaceTitle": "The dining room",
+    "spaceBody": "Warm lighting, dark wood tones, and red-gold accents create a calm, modern space—perfect for a quick lunch or a relaxed dinner after shopping."
+  },
+  "menu": {
+    "title": "Menu",
+    "subtitle": "Tap a category or swipe on mobile to explore.",
+    "priceNote": "Prices include VAT where applicable. Menu items and images are for reference.",
+    "searchLabel": "Search menu",
+    "searchPlaceholder": "Search by dish name…",
+    "searchEmpty": "No dishes match your search.",
+    "clearSearch": "Clear"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "A glimpse of our plates and dining room.",
+    "zoomBadge": "Larger",
+    "prevImage": "Previous image",
+    "nextImage": "Next image",
+    "closeGallery": "Close viewer",
+    "imageCounter": "{current} / {total}"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Visit us inside Nyír Pláza.",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Hours",
+    "mapTitle": "Map",
+    "weekdaysLabel": "Mon–Sat",
+    "sundayLabel": "Sunday",
+    "mobileHint": "Tap the number to call on mobile."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or was moved."
+  },
+  "error": {
+    "kicker": "Error",
+    "title": "Something went wrong",
+    "body": "Please try again. If the problem persists, refresh the page or come back later.",
+    "retry": "Try again"
+  }
+}

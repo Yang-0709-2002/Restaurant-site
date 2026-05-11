@@ -1,0 +1,132 @@
+{
+  "categories": [
+    { "id": "rice", "label": { "en": "Rice", "hu": "Rizses ételek", "zh": "饭类" } },
+    { "id": "noodles", "label": { "en": "Noodles", "hu": "Tészták", "zh": "粉面" } },
+    { "id": "chicken", "label": { "en": "Chicken", "hu": "Csirkés ételek", "zh": "鸡肉" } },
+    { "id": "soup", "label": { "en": "Soup", "hu": "Levesek", "zh": "汤羹" } },
+    { "id": "seafood", "label": { "en": "Seafood", "hu": "Tenger gyümölcsei", "zh": "海鲜" } },
+    { "id": "chef", "label": { "en": "Chef specials", "hu": "Séf ajánlatai", "zh": "主厨推荐" } }
+  ],
+  "items": [
+    {
+      "id": "pineapple-rice",
+      "categoryId": "rice",
+      "name": { "en": "Pineapple fried rice", "hu": "Ananászos pirított rizs", "zh": "菠萝炒饭" },
+      "description": {
+        "en": "Wok-tossed jasmine rice with shrimp, egg, cashews, and sweet pineapple.",
+        "hu": "Jázminrizs garnélával, tojással, kesudióval és édes ananásszal.",
+        "zh": "茉莉香米镬炒，配虾仁、蛋、腰果与清甜菠萝。"
+      },
+      "priceFt": 3290,
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80"
+    },
+    {
+      "id": "basil-rice",
+      "categoryId": "rice",
+      "name": { "en": "Thai basil chicken rice", "hu": "Thai bazsalikomos csirke rizs", "zh": "泰式打抛鸡饭" },
+      "description": {
+        "en": "Spicy stir-fry with holy basil, chili, and a fried egg on jasmine rice.",
+        "hu": "Csípős wokos csirke szent bazsalikommal, chilivel és sült tojással.",
+        "zh": "圣罗勒、辣椒镬气快炒鸡肉，盖在茉莉饭上，配煎蛋。"
+      },
+      "priceFt": 3190,
+      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&q=80"
+    },
+    {
+      "id": "pad-thai",
+      "categoryId": "noodles",
+      "name": { "en": "Pad Thai", "hu": "Pad Thai", "zh": "泰式炒河粉" },
+      "description": {
+        "en": "Classic tamarind noodles with tofu, bean sprouts, peanuts, and lime.",
+        "hu": "Klasszikus tamarindos tészta tofuval, csírázó babbal, földimogyoróval és lime-mal.",
+        "zh": "经典罗望子酸甜调味河粉，配豆腐、豆芽、花生与青柠。"
+      },
+      "priceFt": 3490,
+      "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800&q=80"
+    },
+    {
+      "id": "drunken-noodles",
+      "categoryId": "noodles",
+      "name": { "en": "Drunken noodles (Pad Kee Mao)", "hu": "Pad Kee Mao", "zh": "泰式醉面（Pad Kee Mao）" },
+      "description": {
+        "en": "Wide rice noodles, Thai basil, chili, and soy with your choice of protein.",
+        "hu": "Széles rizstészta, thai bazsalikom, chili és szója a választott fehérjével.",
+        "zh": "宽河粉配泰式罗勒、辣椒与酱油，可选肉类或海鲜。"
+      },
+      "priceFt": 3690,
+      "image": "https://images.unsplash.com/photo-1617093727343-374908b1c311?w=800&q=80"
+    },
+    {
+      "id": "kung-pao",
+      "categoryId": "chicken",
+      "name": { "en": "Kung Pao chicken", "hu": "Kung Pao csirke", "zh": "宫保鸡丁" },
+      "description": {
+        "en": "Sichuan-style chicken with dried chili, peanuts, and glossy soy sauce.",
+        "hu": "Szecsuáni stílusú csirke szárított chilivel, földimogyoróval és fényes szójaszósszal.",
+        "zh": "川味鸡丁配干辣椒、花生与油亮酱汁，镬气十足。"
+      },
+      "priceFt": 3390,
+      "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=800&q=80"
+    },
+    {
+      "id": "lemongrass-chicken",
+      "categoryId": "chicken",
+      "name": { "en": "Lemongrass grilled chicken", "hu": "Citromfüves grillezett csirke", "zh": "香茅烤鸡" },
+      "description": {
+        "en": "Marinated thigh, charred edges, served with sweet chili dipping sauce.",
+        "hu": "Pácolt comb, enyhén sült élek, édes-chilis mártogatóssal.",
+        "zh": "腌制鸡腿烤至边缘焦香，配泰式甜辣酱蘸食。"
+      },
+      "priceFt": 3590,
+      "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&q=80"
+    },
+    {
+      "id": "tom-yum",
+      "categoryId": "soup",
+      "name": { "en": "Tom Yum Goong", "hu": "Tom Yum garnélával", "zh": "冬阴功汤（大虾）" },
+      "description": {
+        "en": "Hot and sour soup with shrimp, lemongrass, galangal, and lime leaves.",
+        "hu": "Forró–savanyú leves garnélával, citromfűvel, galangallal és lime levéllel.",
+        "zh": "酸辣鲜汤，配大虾、香茅、南姜与柠檬叶。"
+      },
+      "priceFt": 2890,
+      "image": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=800&q=80"
+    },
+    {
+      "id": "wonton-soup",
+      "categoryId": "soup",
+      "name": { "en": "Wonton soup", "hu": "Wonton leves", "zh": "馄饨汤" },
+      "description": {
+        "en": "Silky wontons in clear chicken broth with scallions and baby bok choy.",
+        "hu": "Selymes wontonok tiszta csirkealaplében újhagymával és bok choy-val.",
+        "zh": "滑嫩馄饨配清鸡汤、葱花与青梗小白菜。"
+      },
+      "priceFt": 2490,
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80"
+    },
+    {
+      "id": "green-curry",
+      "categoryId": "chef",
+      "name": { "en": "Green curry", "hu": "Zöld curry", "zh": "青咖喱" },
+      "description": {
+        "en": "Aromatic coconut curry with eggplant, bamboo shoots, and Thai basil.",
+        "hu": "Illatos kókuszos curry padlizsánnal, bambusszal és thai bazsalikommal.",
+        "zh": "椰香浓郁的青咖喱，配茄子、笋与泰式罗勒。"
+      },
+      "priceFt": 3790,
+      "image": "https://images.unsplash.com/photo-1455619452474-d7be8cc8c020?w=800&q=80"
+    },
+    {
+      "id": "salt-pepper-prawns",
+      "categoryId": "seafood",
+      "name": { "en": "Salt & pepper prawns", "hu": "Só-bors garnéla", "zh": "椒盐大虾" },
+      "description": {
+        "en": "Crispy shell-on prawns with garlic, chili, and flash-fried shallots.",
+        "hu": "Ropogós garnéla fokhagymával, chilivel és gyorsan sült salottával.",
+        "zh": "连壳大虾炸至酥脆，配蒜、辣椒与爆香红葱头。"
+      },
+      "priceFt": 4290,
+      "image": "https://images.unsplash.com/photo-1565680018434-b75d6e5cfd36?w=800&q=80"
+    }
+  ]
+}

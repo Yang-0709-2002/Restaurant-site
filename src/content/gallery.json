@@ -1,0 +1,56 @@
+{
+  "images": [
+    {
+      "id": "g1",
+      "type": "dish",
+      "src": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=1200&q=80",
+      "alt": {
+        "en": "Stir-fried noodles close-up",
+        "hu": "Pirított tészta közeli",
+        "zh": "炒面特写"
+      }
+    },
+    {
+      "id": "g2",
+      "type": "dish",
+      "src": "https://images.unsplash.com/photo-1455619452474-d7be8cc8c020?w=1200&q=80",
+      "alt": { "en": "Curry in a bowl", "hu": "Curry tálban", "zh": "碗装咖喱" }
+    },
+    {
+      "id": "g3",
+      "type": "venue",
+      "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
+      "alt": {
+        "en": "Warm restaurant interior",
+        "hu": "Meleg étterembelső",
+        "zh": "温馨的餐厅内景"
+      }
+    },
+    {
+      "id": "g4",
+      "type": "dish",
+      "src": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=1200&q=80",
+      "alt": { "en": "Tom Yum soup", "hu": "Tom Yum leves", "zh": "冬阴功汤" }
+    },
+    {
+      "id": "g5",
+      "type": "venue",
+      "src": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=80",
+      "alt": {
+        "en": "Dining tables and lighting",
+        "hu": "Asztalok és világítás",
+        "zh": "餐桌与灯光"
+      }
+    },
+    {
+      "id": "g6",
+      "type": "dish",
+      "src": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&q=80",
+      "alt": {
+        "en": "Rice bowl with toppings",
+        "hu": "Rizstál feltétekkel",
+        "zh": "盖饭配料"
+      }
+    }
+  ]
+}

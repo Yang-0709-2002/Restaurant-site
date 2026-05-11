@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-ink text-zinc-100 antialiased;
+}
+
+::selection {
+  @apply bg-brand-red/40 text-white;
+}

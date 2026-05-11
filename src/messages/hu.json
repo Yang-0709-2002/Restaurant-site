@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "titleDefault": "Bangkok Thai Chinese étterem",
+    "description": "Thai és kínai konyha a Nyír Plázában, Nyíregyházán. Wokban pirított tészták, curryk és családias tálak."
+  },
+  "nav": {
+    "home": "Kezdőlap",
+    "about": "Rólunk",
+    "menu": "Menü",
+    "gallery": "Galéria",
+    "contact": "Kapcsolat"
+  },
+  "brand": {
+    "nameLine": "Bangkok",
+    "cuisinesLine": "Thai · kínai"
+  },
+  "common": {
+    "viewMenu": "Menü megtekintése",
+    "contactUs": "Kapcsolat",
+    "getDirections": "Útvonal",
+    "openNow": "Nyitva",
+    "closed": "Zárva",
+    "hoursToday": "Ma",
+    "cuisine": "Konyha",
+    "cuisineThai": "Thai",
+    "cuisineChinese": "Kínai",
+    "avgPrice": "Átlagos fogyasztás / fő",
+    "featured": "Séf ajánlatai",
+    "learnMore": "Tovább",
+    "call": "Hívás",
+    "filterAll": "Összes",
+    "filterDishes": "Ételek",
+    "filterVenue": "Helyszín",
+    "skipToMain": "Ugrás a tartalomra",
+    "navigationMenu": "Navigáció megnyitása",
+    "loading": "Betöltés…"
+  },
+  "home": {
+    "heroKicker": "Nyír Pláza · Nyíregyháza",
+    "introTitle": "Merész ízek, közös asztal",
+    "hoursTitle": "Nyitvatartás",
+    "hoursWeekdays": "Hétfő–szombat",
+    "hoursSun": "Vasárnap",
+    "ctaSub": "Szívesen látunk sétálva. Nagyobb társaságoknál érdemes előre telefonálni."
+  },
+  "about": {
+    "title": "Rólunk",
+    "introTitle": "Történetünk",
+    "introBody": "A Bangkok Thai Chinese Restaurant két kedvelt ázsiai konyhát hoz össze: Thaiföld illatos curryit és salátáit, valamint Kína wokos, otthonos ételeit. Rendelésre főzünk, egyensúlyban tartva a csípősséget, az édességet és az umamit minden tányéron.",
+    "fusionTitle": "Thai találkozik a kínai konyhával",
+    "fusionBody": "Thai kedvenceket találsz, mint a Pad Thai vagy a zöld curry, kínai klasszikusok mellett, például Kung Pao csirke vagy wonton leves — tiszta ízekkel és bőséges adagokkal.",
+    "serviceTitle": "Szolgáltatás",
+    "serviceBody": "Gyors, barátságos kiszolgálás és következetes minőség. Naponta friss zöldséget használunk, étlapunk pedig családoknak, diákoknak és plázalátogatóknak egyaránt barátságos.",
+    "spaceTitle": "Az étterem",
+    "spaceBody": "Meleg fények, sötét fa tónusok és piros–arany akcentek nyugodt, modern teret alkotnak — tökéletes egy gyors ebédhez vagy egy laza vacsorához vásárlás után."
+  },
+  "menu": {
+    "title": "Menü",
+    "subtitle": "Válassz kategóriát, mobilon pedig csúsztass oldalra a böngészéshez.",
+    "priceNote": "Az árak tartalmazzák az ÁFÁ-t, ahol kötelező. Az ételek és képek tájékoztató jellegűek.",
+    "searchLabel": "Menü keresése",
+    "searchPlaceholder": "Keresés ételnévre…",
+    "searchEmpty": "Nincs találat a keresésre.",
+    "clearSearch": "Törlés"
+  },
+  "gallery": {
+    "title": "Galéria",
+    "subtitle": "Ízelítő tányérjainkból és éttermünkből.",
+    "zoomBadge": "Nagyítás",
+    "prevImage": "Előző kép",
+    "nextImage": "Következő kép",
+    "closeGallery": "Bezárás",
+    "imageCounter": "{current} / {total}"
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Látogass meg minket a Nyír Plázában.",
+    "address": "Cím",
+    "phone": "Telefon",
+    "hours": "Nyitvatartás",
+    "mapTitle": "Térkép",
+    "weekdaysLabel": "Hétfő–szombat",
+    "sundayLabel": "Vasárnap",
+    "mobileHint": "Mobilon koppints a számra a híváshoz."
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva."
+  },
+  "notFound": {
+    "title": "Az oldal nem található",
+    "body": "A keresett oldal nem létezik, vagy áthelyeztük."
+  },
+  "error": {
+    "kicker": "Hiba",
+    "title": "Valami hiba történt",
+    "body": "Próbáld újra. Ha továbbra is fennáll, frissítsd az oldalt, vagy térj vissza később.",
+    "retry": "Újra"
+  }
+}

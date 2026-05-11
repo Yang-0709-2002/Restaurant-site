@@ -1,0 +1,24 @@
+{
+  "name": "Bangkok Thai Chinese Restaurant",
+  "tagline": {
+    "en": "Thai heat, Chinese comfort — under one roof.",
+    "hu": "Thai csípős, kínai otthonos — egy tető alatt.",
+    "zh": "泰式热辣，中式暖胃，一味俱全。"
+  },
+  "shortIntro": {
+    "en": "Family-style plates, wok-fired noodles, and fragrant curries in the heart of Nyír Pláza.",
+    "hu": "Családias tálak, wokban pirított tészták és illatos curryk a Nyír Pláza szívében.",
+    "zh": "家庭式份量、镬气小炒与飘香咖喱，就在 Nyír Pláza 核心位置。"
+  },
+  "addressLine": "Nyíregyháza 4400, Located in Nyír Pláza",
+  "mapsQuery": "Nyír Pláza, Nyíregyháza, Hungary",
+  "phoneDisplay": "+36 20 288 8549",
+  "phoneTel": "+36202888549",
+  "cuisines": ["Thai", "Chinese"],
+  "priceRangeFt": { "min": 2500, "max": 7500 },
+  "weeklyHours": [
+    { "weekdays": [1, 2, 3, 4, 5, 6], "open": "08:30", "close": "20:30" },
+    { "weekdays": [0], "open": "10:00", "close": "20:00" }
+  ],
+  "featuredDishIds": ["pad-thai", "tom-yum", "kung-pao", "green-curry"]
+}
