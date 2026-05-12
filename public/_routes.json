@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/_next/static/*",
+    "/_next/image/*",
+    "/images/*",
+    "/icon.svg",
+    "/favicon.ico",
+    "/manifest.webmanifest",
+    "/robots.txt",
+    "/sitemap.xml"
+  ]
+}
