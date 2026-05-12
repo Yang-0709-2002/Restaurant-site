@@ -54,7 +54,7 @@
         "zh": "宽河粉配泰式罗勒、辣椒与酱油，可选肉类或海鲜。"
       },
       "priceFt": 3690,
-      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80"
+      "image": "/images/menu/drunken-noodles.jpg"
     },
     {
       "id": "kung-pao",
@@ -114,7 +114,7 @@
         "zh": "椰香浓郁的青咖喱，配茄子、笋与泰式罗勒。"
       },
       "priceFt": 3790,
-      "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80"
+      "image": "/images/menu/green-curry.jpg"
     },
     {
       "id": "salt-pepper-prawns",
@@ -126,7 +126,7 @@
         "zh": "连壳大虾炸至酥脆，配蒜、辣椒与爆香红葱头。"
       },
       "priceFt": 4290,
-      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80"
+      "image": "/images/menu/salt-pepper-prawns.jpg"
     }
   ]
 }

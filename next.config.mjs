@@ -5,6 +5,8 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    // Cloudflare Pages 等边缘环境上 `/_next/image` 常不稳定；关闭优化可保证图片能显示。
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

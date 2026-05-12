@@ -13,7 +13,7 @@
     {
       "id": "g2",
       "type": "dish",
-      "src": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=1200&q=80",
+      "src": "/images/menu/green-curry.jpg",
       "alt": { "en": "Curry in a bowl", "hu": "Curry tálban", "zh": "碗装咖喱" }
     },
     {
