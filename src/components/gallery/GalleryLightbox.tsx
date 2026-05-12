@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
@@ -90,13 +89,11 @@ export function GalleryLightbox({ images }: Props) {
           onClick={(e) => e.stopPropagation()}
         >
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-white/10">
-            <Image
+            <img
               src={images[active].src}
               alt={images[active].alt}
-              fill
-              className="object-contain bg-black"
-              sizes="100vw"
-              priority
+              className="absolute inset-0 m-auto h-full max-h-full w-full max-w-full object-contain bg-black"
+              decoding="async"
             />
           </div>
           <p className="mt-3 text-center text-sm text-zinc-400">
@@ -117,12 +114,12 @@ export function GalleryLightbox({ images }: Props) {
             aria-label={`${t("zoomBadge")}: ${img.alt}`}
             className="group relative aspect-square overflow-hidden rounded-xl border border-white/10 bg-zinc-900 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-gold"
           >
-            <Image
+            <img
               src={img.src}
               alt={img.alt}
-              fill
-              className="object-cover transition duration-500 group-hover:scale-105"
-              sizes="(max-width: 640px) 50vw, 33vw"
+              className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+              loading="lazy"
+              decoding="async"
             />
             <span className="absolute inset-0 bg-black/0 transition group-hover:bg-black/30" />
             <span className="absolute bottom-2 left-2 rounded-full bg-black/60 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white opacity-0 transition group-hover:opacity-100">

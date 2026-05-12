@@ -3,19 +3,9 @@ import menu from "@/content/menu.json";
 import restaurant from "@/content/restaurant.json";
 import type { AppLocale } from "@/i18n/locales";
 import { priceNumberFormatLocale } from "@/i18n/locales";
-
-import imgDrunkenNoodles from "@/assets/menu/drunken-noodles.jpg";
-import imgGreenCurry from "@/assets/menu/green-curry.jpg";
-import imgSaltPepperPrawns from "@/assets/menu/salt-pepper-prawns.jpg";
+import { MENU_INLINE_IMAGE_BY_ID } from "@/lib/menu-inline-data";
 
 export type Locale = AppLocale;
-
-/** 打包进 `/_next/static/media/`，避免 Cloudflare 上 `public/` 静态资源 404。 */
-const MENU_IMAGE_BY_ID: Record<string, string> = {
-  "drunken-noodles": imgDrunkenNoodles.src,
-  "green-curry": imgGreenCurry.src,
-  "salt-pepper-prawns": imgSaltPepperPrawns.src,
-};
 
 export function getRestaurant() {
   return restaurant;
@@ -26,7 +16,7 @@ export function getMenu() {
     ...menu,
     items: menu.items.map((item) => ({
       ...item,
-      image: MENU_IMAGE_BY_ID[item.id] ?? item.image,
+      image: MENU_INLINE_IMAGE_BY_ID[item.id] ?? item.image,
     })),
   };
 }
@@ -35,7 +25,9 @@ export function getGallery() {
   return {
     ...gallery,
     images: gallery.images.map((img) =>
-      img.id === "g2" ? { ...img, src: imgGreenCurry.src } : img,
+      img.id === "g2"
+        ? { ...img, src: MENU_INLINE_IMAGE_BY_ID["green-curry"] ?? img.src }
+        : img,
     ),
   };
 }

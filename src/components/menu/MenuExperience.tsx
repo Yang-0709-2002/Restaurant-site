@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
@@ -161,12 +160,13 @@ export function MenuExperience({
                       className="w-[min(88vw,340px)] shrink-0 snap-center overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/30 shadow-md shadow-black/30 md:w-auto md:min-w-0"
                     >
                       <div className="relative aspect-[16/10]">
-                        <Image
+                        {/* 原生 img：支持 data URL，避免 Cloudflare 上 next/image 与静态资源路径问题 */}
+                        <img
                           src={dish.image}
                           alt={dish.name[locale]}
-                          fill
-                          className="object-cover"
-                          sizes="(max-width: 768px) 88vw, 33vw"
+                          className="absolute inset-0 h-full w-full object-cover"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </div>
                       <div className="space-y-2 p-4">

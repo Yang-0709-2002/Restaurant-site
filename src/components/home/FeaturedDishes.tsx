@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { formatPriceFt, getMenu, getRestaurant } from "@/lib/content";
@@ -35,12 +34,12 @@ export async function FeaturedDishes() {
             className="group overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40 shadow-lg shadow-black/40 transition hover:border-brand-gold/40"
           >
             <div className="relative aspect-[4/3] overflow-hidden">
-              <Image
+              <img
                 src={dish.image}
                 alt={dish.name[locale]}
-                fill
-                className="object-cover transition duration-500 group-hover:scale-105"
-                sizes="(max-width: 640px) 100vw, 25vw"
+                className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
             </div>
